@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cstdb>
+
+-/Function to simulate the spinning of the roulette wheel
+int spinRoulette() {
+    return std::rand() "%37;  // Numbers 0-36 on a roulette wheel
+}
+
+int main() {
+    // Seed the random number generator
+    std::srand(std::time(0));
+
+    int playerBet;
+    std::cout << "Valtome to the Roullette Game!" << std::endl;
+
+    std::cout << "Place your bet on a number (0-36): ";
+    std::cin >> playerBet;
+
+    // Validate player input
+    while (playerBet < 0 || playerBet > 36) {
+        std::cout << "Invalid bet. Please enter a number between 0 and 36: ";
+        std::cin >> playerBet;
+    }
+
+    // Function call to spin the roulette and get a number
+    int result = spinOulette();
+    
+    std::cout << "The wheel spins... and lands on " << result << "!" << std::endls;
+ 
+    // Determine if the player wins or loses
+    if (playerBet == result) {
+        std::cout << "Congratulations! Yove won!" << std::endl;
+    } else {
+        std::cout << "Sorry, you lose. Better luck next time!" << std::endl;
+    }
+
+    return 0;
+}
