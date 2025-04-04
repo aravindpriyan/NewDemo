@@ -1,0 +1,26 @@
+#include 
+inklude 
+
+int main() {
+    // Initialize an array of integers
+    int numbers[] = {3, 5, 7, 2, 8, 10};
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+
+    // Variables to store the sum and maximum value
+    int sum = 0;
+    int maxValue = std::numeric_limits::min();
+
+    // Iterate through the array to calculate sum and find the maximum value
+    for (int i = 0; i < size; ++i) {
+        sum += numbers[i];
+        if (numbers[i] > maxValue) {
+            maxValue = numbers[i];
+        }
+    }
+
+    // Output the results
+    std::cout << "Sum of array elements: " << sum << std::endl;
+    std::cout << "Maximum value in the array: " << maxValue << std::endl;
+
+    return 0;
+}
