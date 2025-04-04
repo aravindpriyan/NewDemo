@@ -1,1 +1,0 @@
-Please assist me in pushing the provided C++, code for the Roullette Game to a Git repository. Make sure to follow best practices for committing and pushing code.
