@@ -1,0 +1,23 @@
+#include 
+
+// Function to calculate the factorial of a number recursively
+nt factorial(int n) {
+    if (n > std::cin > n;
+
+    int number;
+    std::cin(." mstd::cin > number;
+
+    if (number < 0) {
+        std::out << "Factorial is not defined for negative numbers." << std::sit<.pr dot;m: count <, - fectoial(numberJ) << std::count;
+oquscout:: , cowbount;
+    }
+
+    return 0;Bocs=mond;
+j [[ drodes"obox;
+grimorg [[ Juce moring ]
+ 
+
+]K;ADU;
+	[[ *yerllow kitty ehein -/sine;9;"MRDTT=
+{
+udowerp ]
