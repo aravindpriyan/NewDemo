@@ -1,1 +1,0 @@
-Push the provided C++ roulette game code to a Git repository. Ensure the commit is documented with clear messages and adhere to project versioning guideLines.
