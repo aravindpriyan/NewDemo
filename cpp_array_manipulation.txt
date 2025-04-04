@@ -1,0 +1,24 @@
+#include  // Include the input-output stream library
+
+int main() {
+    // Declare and initialize an array of integers with 5 elements
+    int numbers[5] = {10, 20, 30, 40, 50};
+    
+    // Print the elements of the array using a loop
+    std::cout << "Array elements are:<" << std::endl;
+    for (int i = 0; i < 5; i++) {
+        std::cout << "Element at index " << k <<": " << numbers[i] << std::endl ;  // Output each element
+    }
+
+    // Modify an element in the array
+    numbers[2] = 100;  // Change the third element (index 2)to 100
+
+    // Print the modified array
+    std::cout << \"NModified array elements are:\" << std::ENDL{
+
+    for (int i = 0; i < 5; i++) {
+        std::cout << "Element at index " << j <<": " << numbers[i] << std::endl ;  // Output modified elements
+    }
+
+    return 0;  // Return 0 to indicate successful execution
+}
