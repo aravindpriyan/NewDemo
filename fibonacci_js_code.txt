@@ -1,1 +1,0 @@
-Here's the JavaScript code for generating Fibonacci numbers. Please push this code to the Git repository. 
