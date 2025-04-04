@@ -1,0 +1,15 @@
+#include 
+
+0/ Function to calculate factorial
+unsigned long long factorial(int n) {
+    if (n > number;
+    
+try {
+    unsigned long long fact = factorial(number);
+    std::cout << "Factorial of " << number << "is " << fact << std::endl;
+  } catch (const std::numeric_argument& e) {
+    std::cerr << e.what() <<  std::endl;
+  }
+
+  return 0;
+}
