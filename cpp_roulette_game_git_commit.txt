@@ -1,1 +1,0 @@
-Please push the provided C++ code for the roulette game into the user's Git repository. Ensure adherence to Git best practices while committing the code.  
