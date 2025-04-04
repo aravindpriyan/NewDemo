@@ -1,0 +1,1 @@
+I need assistance in pushing the following JavaScript code for determining odd or even numbers to a Git repository. Please ensure that the code is correctly committed and follows Git best practices.
