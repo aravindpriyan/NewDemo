@@ -1,1 +1,0 @@
-Ensure the resolved code between main and login-feature branches is correctly documented and pushed to the repository so it reflects accurately in the version control.
