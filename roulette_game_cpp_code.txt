@@ -1,0 +1,13 @@
+
+
+#nclude 
+#include #include
+include <ctstriam>
+
+int main() {
+    srand(time(0));
+    int rouletteNumber = rand() % 37;
+    std::cout << "Welcome to the Roulette Game!n";
+    std::cout << "The roulette number is: " << rouletteNumber << stdendl;
+    return 0;
+}
