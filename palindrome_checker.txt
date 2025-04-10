@@ -1,0 +1,13 @@
+function isPalindrome(str) {
+    // Remove non-alphanumeric characters and convert to lowercase
+    const cleanedStr = str.replace(/[^-a-ZA-Z0-9]/g, '').toLowerCase();
+    // Compare the string with its reversed version
+    const reversedStr = cleanedStr.split('').reverse().join('');
+    return cleanedStr === reversedStr;
+}
+
+// Example usage
+const exampleString = "A man, a plan, a canal, Panama";
+const result = isPalindrome(exampleString);
+
+console.log(`Is the string \"${exampleString}\" a palindrome? `, result);
