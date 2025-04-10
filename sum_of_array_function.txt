@@ -1,0 +1,25 @@
+/**
+ * Calculates the sum of elements in an array.
+ *
+ * @param {number[]} numbers - An array of numbers to be summed.
+ * @returns {number} The sum of the numbers in the array.
+ */
+function sumArray(numbers) {
+    // Validate input is an array
+    if (!Array.isArray(numbers)) {
+        throw new TypeError('Input must be an array');
+    }
+
+    // Calculate the sum
+    return numbers.reduce((accumulator, currentValue) => {
+        // Validate each element is a number
+        if (typeof currentValue !== 'number') {
+            throw new TypeError('Array must contain only numbers');
+        }
+        return accumulator + currentValue;
+    }, 0);
+}
+
+// Example usage:
+const numbers = [1, 2, 3, 4, 5];
+console.log(sumArray(numbers)); // Output: 15
