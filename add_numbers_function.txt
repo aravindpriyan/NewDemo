@@ -1,0 +1,10 @@
+function addNumbers(a, b) {
+  // Takes two numbers as input and returns their sum.
+  return a + b;
+}
+
+// Example usage:
+const number1 = 5;
+const number2 = 7;
+const sum = addNumbers(number1, number2);
+console.log("The sum is: " + sum); // Output: The sum is: 12
